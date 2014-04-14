@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBudleTypeOSTypes</key>
+			<array>
+				<string>wslf</string>
+			</array>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>WS_licence</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>WSLF</string>
+			<key>CFBundleTypeName</key>
+			<string>WiFiScriptor Licence File</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSTypeIsPackage</key>
+			<false/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>XML</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>WifiScriptor</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.semaja2.WiFIScriptor</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.2.1</string>
+	<key>LSUIElement</key>
+	<integer>1</integer>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>SUFeedURL</key>
+	<string>http://wifiscriptor.semaja2.net/profile/profileInfo.php</string>
+</dict>
+</plist>
